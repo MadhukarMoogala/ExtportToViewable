@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0" 
+                    Version="1.0" 
+                    ProductCode="{92DAE142-1B21-4731-9CFA-15AC46F34635}"
+                    Name="LMVExporter.bundle" 
+                    Description="Exporting Custom Property Data to Viewable SVF" 
+                    Author="Madhukar Moogala">
+    <CompanyDetails Name="Autodesk, Inc" 
+                    Url="http://tutorials.autodesk.io"
+                    Email="aps.help@autodesk.com"/>
+    <Components>
+        <RuntimeRequirements OS="Win64" Platform="AutoCAD"/>
+        <ComponentEntry AppName="LMVExporter.bundle" 
+                        ModuleName="./Contents/TestLMVExtractor.dll"
+                        AppDescription="Exporting Custom Property Data to Viewable SVF" 
+                        LoadOnCommandInvocation="True" 
+                        LoadOnAutoCADStartup="False">
+                <Commands GroupName="EXTRACTDATA">
+                    <Command Global="EXTRACTDATA" Local="EXTRACTDATA"/>
+                </Commands>
+        </ComponentEntry>
+    </Components>
+</ApplicationPackage>

@@ -1,0 +1,160 @@
+{
+	"AcDb3dSolid" : 
+	[
+		"RecordHistory",
+		"ShowHistory",
+		"SolidType"
+	],
+	"AcDbArc" : 
+	[
+		"EndAngle",
+		"Length",
+		"Radius",
+		"StartAngle",
+		"Thickness",
+		"TotalAngle"
+	],
+	"AcDbBlockReference" : 
+	[
+		"BlockTableRecord/Name",
+		"BlockTableRecord/UnitFactor",
+		"BlockTableRecord/Units",
+		"ExternalPath",
+		"LayerPropertyOverrides",
+		"MatchOrientationToLayout",
+		"Rotation",
+		"ScaleFactors/UniformScale",
+		"ScaleFactors/X",
+		"ScaleFactors/Y",
+		"ScaleFactors/Z"
+	],
+	"AcDbCurve" : 
+	[
+		"Area",
+		"Closed"
+	],
+	"AcDbEntity" : 
+	[
+		"AnnotativeScale",
+		"Color",
+		"LayerId",
+		"LineWeight",
+		"LinetypeId",
+		"LinetypeScale",
+		"MaterialId",
+		"PlotStyleName",
+		"ShadowDisplay",
+		"Transparency"
+	],
+	"AcDbFace" : 
+	[
+		"VisibilityEdge1",
+		"VisibilityEdge2",
+		"VisibilityEdge3",
+		"VisibilityEdge4"
+	],
+	"AcDbHatch" : 
+	[
+		"Area",
+		"Associative",
+		"BackgroundColor",
+		"DrawOrder",
+		"Elevation",
+		"GradientAngle",
+		"GradientCentered",
+		"GradientColor1",
+		"GradientColor2",
+		"GradientName",
+		"HatchStyle",
+		"ISOPenWidth",
+		"PatternAngle",
+		"PatternDouble",
+		"PatternFillType",
+		"PatternName",
+		"PatternScale",
+		"PatternSpace"
+	],
+	"AcDbLine" : 
+	[
+		"Angle",
+		"Length",
+		"Thickness"
+	],
+	"AcDbObject" : 
+	[
+		"Annotative",
+		"Handle"
+	],
+	"AcDbPoint" : 
+	[
+		"Thickness"
+	],
+	"AcDbPolyFaceMesh" : 
+	[
+		"NumFaces",
+		"NumVertices"
+	],
+	"AcDbPolyline" : 
+	[
+		"ConstantWidth",
+		"Elevation",
+		"Length",
+		"Plinegen",
+		"Thickness"
+	],
+	"AcDbPolylineVertex" : 
+	[
+		"EndWidth",
+		"StartWidth"
+	],
+	"AcDbRegion" : 
+	[
+		"Area",
+		"Perimeter"
+	],
+	"AcDbSurface" : 
+	[
+		"MaintainAssociativity",
+		"ShowAssociativity",
+		"SurfaceTypeName",
+		"TrimmedSurface",
+		"TrimmingEdges",
+		"UIsoLineDensity",
+		"VIsoLineDensity",
+		"WireframeType"
+	],
+	"AcDbViewport" : 
+	[
+		"Clipped",
+		"CustomScale",
+		"Height",
+		"LayerPropertyOverrides",
+		"LinkedToSheetView",
+		"Locked",
+		"On",
+		"ShadePlot",
+		"StandardScale",
+		"UcsPerViewport",
+		"VisualStyleId",
+		"Width"
+	],
+	"AcRxObject" : 
+	[
+		"LocalizedName"
+	],
+	"Db0::puerta[CDCD5942]DbFacet" : 
+	[
+		"AcDbDynBlockPropertyEstado de simetr\u00eda",
+		"AcDbDynBlockPropertyEstado de simetr\u00eda1"
+	],
+	"Db0::ventana 3d fija[331F0435]DbFacet" : 
+	[
+		"AcDbDynBlockPropertyDistancia",
+		"AcDbDynBlockPropertyDistancia1"
+	],
+	"Db0::ventana 3d[84904B6F]DbFacet" : 
+	[
+		"AcDbDynBlockPropertyDistancia",
+		"AcDbDynBlockPropertyDistancia1"
+	]
+}

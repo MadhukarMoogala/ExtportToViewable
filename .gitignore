@@ -332,6 +332,8 @@ __pycache__/
 # !tools/packages.config
 
 packages/
+output/
+view.bat
 
 # Tabs Studio
 *.tss
