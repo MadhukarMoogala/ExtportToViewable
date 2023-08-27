@@ -1,0 +1,72 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: ArtifaktElement;
+}
+
+#header {
+    height: 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: right;
+}
+
+#header > * {
+    height: 2em;
+    margin: 0 0.5em;
+    font-size: 1em;
+    font-family: ArtifaktElement;
+    padding-top: 25px;
+}
+
+#header .title {
+    flex: 1 0 auto;
+    height: auto;
+    -webkit-app-region: drag;    /* Allow user to drag the window using this titlebar */
+    -webkit-user-select: none;   /* Prevent user from selecting things */
+    user-select: none;
+}
+
+#container {
+    position: absolute;
+    top: 3em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 25px;
+}
+
+#container > div {
+    position: relative;
+    height: 100%;
+}
+
+#preview {
+    float: left;
+    width: 50%;
+}
+
+#pdfview {
+    float: right;
+    width: 50%;
+}
+
+/* Add styles here to customize the appearance of your app */
+.float-left-child {
+    float: left
+  }
+  .child {
+    border: 10px ;
+    padding: 1rem
+  }  
+  .center {
+    position: fixed;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        right: 50%;
+        margin: auto;
+  }

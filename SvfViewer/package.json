@@ -1,0 +1,36 @@
+{
+  "name": "svfviewer",
+  "version": "1.0.0",
+  "description": "A minimal Electron application for viewing SVF files",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "pack": "electron-builder --dir",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "SVF",
+    "Viewer",
+    "Webtop",
+    "Desktop",
+    "Electron"
+  ],
+  "author": "Madhukar Moogala",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.1",
+    "@electron-forge/maker-deb": "^6.4.1",
+    "@electron-forge/maker-rpm": "^6.4.1",
+    "@electron-forge/maker-squirrel": "^6.4.1",
+    "@electron-forge/maker-zip": "^6.4.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.1",
+    "electron": "^26.0.0"
+  },
+  "dependencies": {
+    "@treverix/custom-electron-titlebar": "^4.2.0",
+    "adm-zip": "^0.5.10",
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

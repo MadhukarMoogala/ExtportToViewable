@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <link rel="icon" type="image/x-icon" href="https://cdn.autodesk.io/favicon.ico">
+  <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.css">
+  <link href="./styles.css" rel="stylesheet">
+  <title>Autodesk Platform Services: Simple Viewer</title>
+</head>
+
+<body>
+
+  <div id="header">
+    <img class="logo" src="https://cdn.autodesk.io/logo/black/stacked.png" alt="Autodesk Platform Services">
+    <span class="title">APS Viewer</span>
+    <button type="button" id="btn" class="child float-left-child">Open</button>
+  </div>
+  <div id="container">
+    <div id="preview"></div>
+    <div id="pdfview"></div>
+  </div>
+  <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
