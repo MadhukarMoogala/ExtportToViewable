@@ -16,6 +16,8 @@ This project uses APS Design Automation to export a drawing custom properties to
 
 # Demo
 
+![](https://github.com/MadhukarMoogala/ExtportToViewable/blob/main/Media/demo.gif)
+
 # Setup
 
 ## Prerequisites
@@ -47,8 +49,6 @@ Now, the solution file is opened in Visual Studio, let's understand each project
 - Set project configuration to Debug and x64.
 
 - Rebuild, restores all nuget packages.
-
-
 
 ### DAClient
 
@@ -123,8 +123,6 @@ cd SvfViewer
 npm install
 npm start
 ```
-
-
 
 # Further Reading
 
