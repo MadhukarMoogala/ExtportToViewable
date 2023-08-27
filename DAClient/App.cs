@@ -52,7 +52,12 @@ namespace DAClient
             var bearerToken = await GetTokenAsync(scopes);
             bearerToken = bearerToken?.Split(" ")[1];
             Logger.LogInformation("{Token}", bearerToken);
-            var input = await OSSHandler.GetObjectIdAsync(bearerToken ?? String.Empty, "House3d.dwg", @"D:\OneDrive - Autodesk\APITeam\DevCon2023\Samples\ExtportToViewable\DAClient\Files\House3d.dwg");
+            var file = Path.Combine(Directory.GetCurrentDirectory(), "Files", "House3d.dwg");
+            if(!File.Exists(file))
+            {
+                throw new FileNotFoundException(file);
+            }
+            var input = await OSSHandler.GetObjectIdAsync(bearerToken ?? String.Empty, "House3d.dwg", file);
             Logger.LogInformation("{ObjectId}", input);
             var output = await OSSHandler.GetObjectIdAsync(bearerToken ?? String.Empty, "result.zip", CreateEmptyZip());
             Logger.LogInformation("{ObjectId}", output);
